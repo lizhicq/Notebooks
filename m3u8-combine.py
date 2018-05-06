@@ -37,4 +37,3 @@ def get_video_ids_from_url(url):
  if __name__ == '__main__': # 贴上你需要下载的 回答或者文章的链接
         url = 'your video page url'
         download(url)
-     
