@@ -13,7 +13,7 @@ def get_directory_path():
  
     print(d_name)
     return d_name
-    
+
 # 新建一个用于保存合并后的文件的文件夹，默认在桌面上，默认名为“合并”
 # 在“合并”文件夹下又新建了一个文件夹“batFile”用于保存批处理文件
 # 返回结果是两个文件夹的路径
