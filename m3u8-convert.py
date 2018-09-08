@@ -33,7 +33,7 @@ def create_dir():
  
     return father_folder_name, son_folder_name
  
-
+ 
 # 新建一个batFile文件，文件名为  选中的文件夹的名字
 def create_bat_file(aim_dir_name):
     batch = '''
