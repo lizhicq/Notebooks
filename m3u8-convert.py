@@ -56,8 +56,8 @@ def create_bat_file(aim_dir_name):
     f.write(batch)
     f.close()
     return bat_file
- 
- 
+
+
 def execute_bat_file():
     bat_file = create_bat_file(get_directory_path())
     os.system(bat_file)
