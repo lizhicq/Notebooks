@@ -62,6 +62,6 @@ def execute_bat_file():
     bat_file = create_bat_file(get_directory_path())
     os.system(bat_file)
 
- 
+
 if __name__ == '__main__':
     execute_bat_file()
