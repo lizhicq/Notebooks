@@ -7,4 +7,4 @@
             test += test
         else:
             test = test[0:len(test)//2]
-    print(time.time() - a)
+    print(time.time() - start)
